@@ -137,6 +137,7 @@ services:
       GUACD_HOSTNAME: guacd
       POSTGRESQL_HOSTNAME: postgres
       POSTGRESQL_DATABASE: ${POSTGRES_DB}
+      POSTGRESQL_PASSWORD: ${POSTGRES_PASSWORD}
       PPOSTGRESQL_USERNAME: ${POSTGRES_USER}
       RECORDING_SEARCH_PATH: /record
     image: guacamole/guacamole:1.6.0
