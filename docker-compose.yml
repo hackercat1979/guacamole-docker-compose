@@ -135,7 +135,6 @@ services:
     - postgres
     environment:
       GUACD_HOSTNAME: guacd
-      POSTGRESQL_DATABASE: ${POSTGRES_DB}
       POSTGRESQL_HOSTNAME: postgres
       POSTGRESQL_DATABASE: ${POSTGRES_DB}
       PPOSTGRESQL_USERNAME: ${POSTGRES_USER}
